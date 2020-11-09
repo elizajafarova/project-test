@@ -73,13 +73,24 @@ body header nav ul li .fa-search {
   cursor: pointer;
 }
 
-body header img {
-  width: 1800px;
-  height: auto;
+body header div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header div img {
+  width: 90%;
+  height: 900px;
   margin-top: 1rem;
 }
 
 body header .contain {
+  width: 42%;
   position: absolute;
   color: #fcf3f3;
   margin-top: 27rem;
@@ -241,9 +252,19 @@ body footer {
           justify-content: center;
 }
 
-body footer img {
-  width: 1850px;
-  height: 800px;
+body footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body footer div img {
+  width: 90%;
+  height: 900px;
   margin-top: 4rem;
 }
 
@@ -251,7 +272,7 @@ body footer a {
   text-decoration: none;
   position: absolute;
   color: #f5f3f3;
-  margin-top: 49rem;
+  margin-top: 50rem;
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
   cursor: pointer;
