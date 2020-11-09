@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header nav {
+  width: 90%;
+  margin-top: 2.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header nav ul li {
+  list-style: none;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #faf1f1;
+}
+
+body header nav ul li a:hover {
+  border-bottom: 1px solid #f3ebeb;
+  opacity: 0.5;
+}
+
+body header nav ul li .fa-map-marker {
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+}
+
+body header nav ul li .fa-search {
+  margin-right: 10px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+body header img {
+  width: 1800px;
+  height: auto;
+  margin-top: 1rem;
+}
+
+body header .contain {
+  position: absolute;
+  color: #fcf3f3;
+  margin-top: 27rem;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 35px;
+  border-bottom: 3px solid #f8f5f5;
+  cursor: pointer;
+}
+
+body main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .page {
+  margin-top: 5rem;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-size: 16px;
+  border-bottom: 1px solid #f3ebeb;
+}
+
+body main .page h1 {
+  color: white;
+}
+
+body main .page a {
+  text-decoration: none;
+  color: #fdfbfb;
+}
+
+body main .page2 {
+  margin-top: 6rem;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .page2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 32%;
+  text-align: center;
+}
+
+body main .page2 div img {
+  height: 25rem;
+}
+
+body main .page2 div a {
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #f8f1f1;
+}
+
+body main .page2 div a span {
+  margin-left: 20px;
+}
+
+body main .page3 {
+  margin-top: 6rem;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-size: 16px;
+  border-bottom: 1px solid #f3ebeb;
+}
+
+body main .page3 h1 {
+  color: white;
+}
+
+body main .page3 a {
+  text-decoration: none;
+  color: #fcf9f9;
+}
+
+body main .page4 {
+  margin-top: 7rem;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .page4 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 47%;
+  text-align: center;
+}
+
+body main .page4 div img {
+  height: 30rem;
+}
+
+body main .page4 div a {
+  margin-top: 3rem;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #faf4f4;
+}
+
+body footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer img {
+  width: 1850px;
+  height: 800px;
+  margin-top: 4rem;
+}
+
+body footer a {
+  text-decoration: none;
+  position: absolute;
+  color: #f5f3f3;
+  margin-top: 49rem;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

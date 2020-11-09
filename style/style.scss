@@ -1,0 +1,158 @@
+@import "sass/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  header {
+   @include flex;
+    flex-direction: column;
+
+    nav {
+      width: 90%;
+      margin-top: 2.5rem;
+      flex-direction: column;
+
+      ul {
+      @include flex;
+        justify-content: space-around;
+
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            font-size: 25px;
+            transition: 0.5s;
+            color: rgb(250, 241, 241);
+            &:hover {
+              border-bottom: 1px solid rgb(243, 235, 235);
+              opacity: 0.5;
+            }
+          }
+          .fa-map-marker {
+            font-size: 60px;
+            color: white;
+            cursor: pointer;
+          }
+          .fa-search {
+            margin-right: 10px;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    img {
+      width: 1800px;
+      height: auto;
+      margin-top: 1rem;
+    }
+    .contain {
+      position: absolute;
+      color: rgb(252, 243, 243);
+      margin-top: 27rem;
+      font-family: "Titillium Web", sans-serif;
+      font-size: 35px;
+      border-bottom: 3px solid rgb(248, 245, 245);
+      cursor: pointer;
+    }
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .page {
+      margin-top: 5rem;
+      @include section;
+      h1 {
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(253, 251, 251);
+      }
+    }
+    .page2 {
+      margin-top: 6rem;
+      @include section2;
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        text-align: center;
+        img {
+          height: 25rem;
+        }
+        a {
+          width: 100%;
+          font-size: 20px;
+          text-decoration: none;
+          color: rgb(248, 241, 241);
+          span {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+    .page3 {
+      margin-top: 6rem;
+      @include section;
+      h1 {
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(252, 249, 249);
+      }
+    }
+    .page4 {
+      margin-top: 7rem;
+      @include section2;
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+        text-align: center;
+        img {
+          height: 30rem;
+        }
+        a {
+          margin-top: 3rem;
+          width: 100%;
+          font-size: 20px;
+          text-decoration: none;
+          color: rgb(250, 244, 244);
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 1850px;
+      height: 800px;
+      margin-top: 4rem;
+    }
+    a {
+      text-decoration: none;
+      position: absolute;
+      color: rgb(245, 243, 243);
+      margin-top: 49rem;
+      font-family: "Titillium Web", sans-serif;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

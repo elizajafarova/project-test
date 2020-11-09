@@ -1,0 +1,20 @@
+@mixin flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+@mixin section {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(243, 235, 235);
+}
+@mixin section2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
